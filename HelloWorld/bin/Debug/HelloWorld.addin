@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>External Tool</Name>
+    <Assembly>HelloWorld.dll</Assembly>
+    <ClientId>fa2dfd2a-b971-4b22-be72-76254c11a022</ClientId>
+    <FullClassName>HelloWorld.AppCommand</FullClassName>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>HelloWorld.dll</Assembly>
+    <ClientId>45eac31b-d506-49ed-8dac-0c36a7acd70a</ClientId>
+    <FullClassName>HelloWorld.HelloWorld</FullClassName>
+    <Text>HelloWorld</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
