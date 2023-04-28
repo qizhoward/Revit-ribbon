@@ -3,14 +3,14 @@
   <AddIn Type="Application">
     <Name>AppCommand</Name>
     <Assembly>HelloWorld.dll</Assembly>
-    <ClientId>c39504fa-86b3-45e3-9696-b8d04e8528bc</ClientId>
+    <ClientId>746099c2-1756-409a-99f3-1f53ce952411</ClientId>
     <FullClassName>HelloWorld.AppCommand</FullClassName>
     <VendorId>ADSK</VendorId>
     <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
   </AddIn>
   <AddIn Type="Command">
     <Assembly>HelloWorld.dll</Assembly>
-    <ClientId>7b4a2beb-7497-4960-a654-e8410226070b</ClientId>
+    <ClientId>e8596178-7d57-48cf-a930-41a11c12e54a</ClientId>
     <FullClassName>HelloWorld.HelloWorld</FullClassName>
     <Text>HelloWorld</Text>
     <Description>""</Description>

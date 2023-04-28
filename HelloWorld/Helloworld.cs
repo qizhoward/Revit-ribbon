@@ -1,9 +1,6 @@
 ﻿using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
-using System;
-using System.Reflection;
-using System.Windows.Media.Imaging;
 
 namespace HelloWorld
 {
@@ -17,7 +14,7 @@ namespace HelloWorld
             var view = new HelloView();
             view.ShowDialog();
 
-            
+
             return Result.Succeeded;
         }
     }
